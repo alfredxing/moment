@@ -1,0 +1,1 @@
+pref("extensions.moment.background", "#FFFFFF");pref("extensions.moment.text", "#003D51");pref("extensions.moment.units", "C");pref("extensions.moment.expires", "Sun, 21 Oct 2012 03:55:00 GMT");pref("extensions.moment.weather", "Light Rain Showers");pref("extensions.moment.degrees", "7")
