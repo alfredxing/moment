@@ -6,7 +6,7 @@ Minimalist clock and weather on the new tab page.
 
 Moment is available as an extension for Google Chrome and add-on for Mozilla Firefox.
 
->  [Google Chrome](https://chrome.google.com/webstore/detail/moment/nlabgnkjjckboiimmhkeplocmhpcfkkn)
+>  [Google Chrome](https://chrome.google.com/webstore/detail/moment/nlabgnkjjckboiimmhkeplocmhpcfkkn)  
 >  [Mozilla Firefox](https://addons.mozilla.org/addon/moment/)
 
 ## Options
