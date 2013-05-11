@@ -1,0 +1,10 @@
+body {
+	margin: 50px;
+	font-family: "Lato";
+}
+label {
+	cursor: default;
+}
+#save {
+	margin-top: 1em;
+}
