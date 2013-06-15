@@ -19,7 +19,7 @@ body {
 #conditions {
 	opacity: 0;
 	font-size: 0.15em;
-	font-weight: 700;
+	font-weight: 100;
 	display: block;
 	cursor: pointer;
 }

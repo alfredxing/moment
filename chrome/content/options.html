@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Moment Options</title>
+	<title>Moment</title>
 	<link href='css/fonts.min.css' rel='stylesheet' type='text/css'>
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/options.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-	<h1>Moment Options</h1>
+	<h1>Moment</h1>
 	<form>
 		<fieldset class="control-group">
-			<h3>Colours</h3>
-			<label>Enter all colors as a hex value or a HTML-compatible colour (for example, #003D51 or slategray).</label>
-			<input type="text" id="background" placeholder="Background color">
-			<input type="text" id="text" placeholder="Text color">
+			<h3>Appearance</h3>
+			<div style="display: inline-block; margin-right: 5px;">
+				<label>Background color:</label>
+				<input type="text" id="background" placeholder="Background color">
+			</div>
+			<div style="display: inline-block; margin-right: 5px;">
+				<label>Text color:</label>
+				<input type="text" id="text" placeholder="Text color">
+			</div>
+			<div style="display: inline-block;">
+				<label>Font:</label>
+				<select id="font">
+					<option value="100">Thin</option>
+					<option value="700">Bold</option>
+				</select>
+			</div>
+			<div style="font-weight: 300;">Enter all colors as a hex value or a HTML-compatible colour (for example, #003D51 or slategray).</div>
 		</fieldset>
+
 		<fieldset>
 			<h3>Units</h3>
 			<select id="temp">
@@ -25,8 +39,11 @@
 				<option value="24">24-hour time</option>
 				<option value="12">12-hour time</option>
 			</select>
+			<select id="zero">
+				<option value="n">No leading zero</option>
+				<option value="y">Leading zero</option>
+			</select>
 		</fieldset>
-		
 
 		<fieldset class="control-group">
 			<h3>Formats</h3>
@@ -38,6 +55,11 @@
 			<h3>Weather</h3>
 			<label>Location:</label><input type="text" id="loc" placeholder="Vancouver, Canada"><br>
 			<a href="http://www.hamweather.com/support/documentation/aeris/supported-places/#content" target="_blank">See a list of supported formats</a>, blank for auto.<br>
+		</fieldset>
+
+		<fieldset class="control-group">
+			<h3>Custom CSS</h3>
+			<textarea id="css" cols="100"></textarea>
 		</fieldset>
 
 		<p><div id="save" class="btn btn-primary btn-large">Save</div></p>

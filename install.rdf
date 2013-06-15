@@ -3,9 +3,10 @@
 	xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 	<Description about="urn:mozilla:install-manifest">
 		<em:id>moment@lfred.info</em:id>
-		<em:version>1.0.0</em:version>
+		<em:version>1.1.0</em:version>
 		<em:type>2</em:type>
 		<em:optionsURL>chrome://moment/content/options.html</em:optionsURL>
+		<em:optionsType>3</em:optionsType>
 
 		<em:name>Moment</em:name>
 		<em:description>Minimal time and weather on the new tab page.</em:description>

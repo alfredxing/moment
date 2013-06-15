@@ -8,3 +8,8 @@ label {
 #save {
 	margin-top: 1em;
 }
+#css {
+	width: 412px;
+	height: 206px;
+	font-family: "Monaco", "Source Code Pro", "Consolas", monospace; 
+}

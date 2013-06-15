@@ -7,6 +7,9 @@ $("#clock").val(prefs.getCharPref('clock'));
 $("#tform").val(prefs.getCharPref('tform'));
 $("#dform").val(prefs.getCharPref('dform'));
 $("#loc").val(prefs.getCharPref('loc'));
+$("#font").val(prefs.getCharPref('font'));
+$("#zero").val(prefs.getCharPref('zero'));
+$("#css").val(prefs.getCharPref('css'));
 
 $(document).ready(function() {
 	$("#save").click(function () {
@@ -18,6 +21,9 @@ $(document).ready(function() {
 		var tform = $("#tform").val();
 		var dform = $("#dform").val();
 		var loc = $("#loc").val();
+		var font = $("#font").val();
+		var zero = $("#zero").val();
+		var css = $("#css").val();
 		prefs.setCharPref('background', background);
 		prefs.setCharPref('text', text);
 		prefs.setCharPref('temp', temp);
@@ -25,6 +31,9 @@ $(document).ready(function() {
 		prefs.setCharPref('tform', tform);
 		prefs.setCharPref('dform', dform);
 		prefs.setCharPref('loc', loc);
+		prefs.setCharPref('font', font);
+		prefs.setCharPref('zero', zero);
+		prefs.setCharPref('css', css);
 		$("#save").addClass("btn-success").text("Saved");
 	});
 	$("input").keyup(function() {
