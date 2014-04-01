@@ -42,3 +42,8 @@ a {
 div {
 	cursor: default;
 }
+
+.notifier {
+	display: block;
+	font-weight: 300;
+}
