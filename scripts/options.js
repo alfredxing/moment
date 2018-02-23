@@ -5,7 +5,7 @@ function onError(error) {
 $(document).ready(function() {
 let prefs = browser.storage.local.get('prefs');
   prefs.then((res) => {
-    console.log(res['prefs']['background']);
+
     $("#background").val(res['prefs']['background']);
     $("#text").val(res['prefs']['text']);
     $("#temp").val(res['prefs']['temp']);
