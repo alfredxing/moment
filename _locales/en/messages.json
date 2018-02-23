@@ -1,10 +1,10 @@
 {
   "appName": {
-    "message": "presently",
+    "message": "Moment",
     "description": "The name of the application"
   },
   "appDescription": {
-    "message": "A simplistic new tab page with the time and date. ",
+    "message": "A simplistic new tab page with the time, date and weather.",
     "description": "The description of the application"
   }
 }
