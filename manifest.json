@@ -1,0 +1,32 @@
+{
+  "name": "__MSG_appName__",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "__MSG_appDescription__",
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "default_locale": "en",
+  "background": {
+    "scripts": [
+      "scripts/script.js"
+    ]
+  },
+  "options_ui": {
+    "page": "options.html",
+    "browser_style": true
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "applications": {
+    "gecko": {
+      "id": "{dfd26c51-b136-4afd-b44b-fb5a282cef03}"
+    }
+  }
+}
