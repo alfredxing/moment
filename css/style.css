@@ -1,7 +1,7 @@
 body {
 	color: #003D51;
 	font-family: "Lato";
-	font-size: 12em;
+	font-size: 14vmax;
 	font-weight: 700;
 	margin: auto;
 	padding-top: 100px;
@@ -18,7 +18,7 @@ body {
 
 #conditions {
 	opacity: 0;
-	font-size: 0.15em;
+	font-size: 3vmax;
 	font-weight: 100;
 	display: block;
 	cursor: pointer;

@@ -1,6 +1,7 @@
 body {
 	margin: 50px;
 	font-family: "Lato";
+  background-color: #f9f9fa;
 }
 label {
 	cursor: default;
