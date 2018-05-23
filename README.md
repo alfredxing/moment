@@ -34,3 +34,4 @@ While the options page is pretty straightforwards, here are the customizations y
 
 ## Meta
 Moment is currently version `1.1.0` for Google Chrome and `1.0.0` for Mozilla Firefox.
+

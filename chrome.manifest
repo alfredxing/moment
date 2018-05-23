@@ -1,5 +1,0 @@
-content     moment    chrome/content/
-content     moment    chrome/content/ contentaccessible=yes
-
-component {C5645D5B-2ADD-4309-83D4-8437C1051183} components/aboutMoment.js
-contract @mozilla.org/network/protocol/about;1?what=newtab {C5645D5B-2ADD-4309-83D4-8437C1051183}
